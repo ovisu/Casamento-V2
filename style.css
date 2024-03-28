@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Corinthia:wght@400;700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  object-fit: fill;
+}
+
+body {
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inicio {
+  display: flex;
+  flex-direction: column;
+
+  gap: 5vh;
+
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 8vh;
+}
+
+.inicio .img-container {
+  width: 90%;
+  border-radius: 8px;
+}
+
+.inicio div img {
+  border-radius: 8px;
+}
+
+.ini-align-text h1 {
+  font-family: "playfair display";
+  font-size: 3rem;
+
+  text-align: center;
+}
+
+.ini-align-text p {
+  font-family: "Playfair Display";
+  font-size: 1.5rem;
+}
+
+.ini-align-text p span {
+  font-family: "Corinthia";
+  font-size: 2rem;
+}
+
+.ini-align-text h1 span {
+  font-family: "Alex Brush";
+}
+
+.ini-align-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Playfair Display SC";
+}
+
+.footer-inicio {
+  width: 100vw;
+  background-color: #578350;
+  text-align: center;
+}
+.footer-inicio p {
+  padding: 5% 5%;
+  color: #fff;
+  font-weight: 300;
+}
+
+.local-data {
+  display: flex;
+  flex-direction: column;
+  gap: 8vh;
+  align-items: center;
+}
+
+.local-text-align {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.loc-text {
+  text-align: center;
+  word-wrap: break-word;
+  padding: 0 5%;
+}
+
+.loc-button {
+  text-align: center;
+
+  color: #576e28;
+
+  font-family: "Playfair Display SC";
+  font-weight: 400;
+
+  border: 1px solid #576e28;
+  border-radius: 5px;
+
+  padding: 8px 20px;
+
+  margin: 0 auto;
+
+  width: fit-content;
+  display: inline-block;
+}
+
+.loc-endereco {
+  display: flex;
+
+  gap: 2vw;
+}
+.loc-endereco p {
+  display: inline-block;
+}
+.contagem {
+  display: flex;
+  gap: 20vw;
+}
+.contagem-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-local-data {
+  text-align: center;
+
+  padding: 5% 5%;
+
+  background-color: #578350;
+
+  color: #fff;
+  font-weight: 300;
+}
+
+.roboto {
+  font-family: Roboto Condensed;
+}
